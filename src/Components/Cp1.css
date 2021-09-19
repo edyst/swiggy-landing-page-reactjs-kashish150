@@ -1,0 +1,41 @@
+.flexcompo{
+    display: flex;
+    padding:0;
+    margin:0;
+    height:540px;
+    max-width:100%;
+    justify-content: space-between;
+}
+@media (max-width:1000px){
+    .login2{
+        width:45%;
+    }
+
+}
+@media (max-width:900px){
+    .login2{
+        display: none;
+    }
+
+
+}
+
+
+
+.login2{
+    max-width:60%;
+    max-height:100%;
+    margin:0;
+    padding:0;
+} 
+.maxwidthfood{
+    max-width:700px;
+    max-height:540px;
+    margin:0;padding:0;
+}
+
+@media (min-width:1400px){
+    .lwidth{
+       width:50%;
+    }
+}
