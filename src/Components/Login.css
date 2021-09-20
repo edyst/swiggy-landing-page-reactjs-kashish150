@@ -1,0 +1,130 @@
+.loginwidth{
+    width:90%;
+    margin:auto;
+    margin-left:120px;
+    margin-top:50px;
+}
+.logo{
+    height: 60px;
+    width: 190px;
+}
+.loginbtn{
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    line-height: 50px;
+    font-size: 14px;
+    height: 50px;
+    padding: 0 2rem;
+    padding-top: 6px;
+    color: #000;
+    letter-spacing: 0;
+    font-size: 16px;
+    font-weight: 600;
+    height: 40px;
+    line-height: 40px;
+    background-color: white;
+    width: auto;
+}
+
+.h3{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: -.3px;
+    color: #686b78;
+    margin-top: 0;
+    padding-top:0;
+    
+}
+.h1{
+    margin-top: 70px;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -.45px;
+   margin-bottom: 0;
+   padding-bottom: 0;
+}
+.flexbtnlogo{
+    display:flex;
+    justify-content: space-between;
+}
+
+.imglogin{
+    background-image: url("https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/lunch1-new_douhad");
+}.pcities{
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 8px;
+    color: #686b78;
+    line-height: 1.5;
+    letter-spacing: -.3px;
+}
+span{
+    color:#A8ABB1;
+}
+input:focus
+{
+    border: 1px solid   #fc8019;;
+    outline-offset: 0px;
+    outline: none;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+}
+
+.cp1button{
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    border: none;
+    font-weight: 600;
+    color: #fff;
+    background-color: #fc8019;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+    font-size: 16px;
+    font-weight: 700;
+    padding:10px;
+
+}
+.singupbtn{
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    color: #000;
+    color: #fff;
+    background-color: #000;
+    font-size: 16px;
+    font-weight: 300;
+    height: 40px;
+    width: 120px;
+    padding:10px;
+}
+input{
+    border:1px solid grey;
+    width:500px;
+    height:50px;
+    padding:0 15px;
+    font-size:18px;
+}
+
+@media (max-width:1200px){
+    .flexbtnlogo{
+        justify-content: space-around;
+    }
+    .loginwidth{
+        width:90%;
+        margin:auto;
+        
+    }input{
+        width:70%;
+    }
+    .flexlogininput{
+        display:block;
+    }
+}.flexlogininput{
+    display:flex;
+}@media (min-width:1440px){
+    
+}
